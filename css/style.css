@@ -660,7 +660,7 @@ body {
         color: white;
     }
 
-   
+
 }
 
 
@@ -686,55 +686,61 @@ body {
     .social-icon:hover {
         background-color: var(--color-violet);
     }
-    .mega-menu-item {
-    position: static !important;
 }
 
-.mega-menu {
-    border-radius: 1rem;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    border: none;
-    margin-top: 10px;
-    padding: 1rem 0;
-}
+.mega-menu-item {
+        position: static !important;
+    }
 
-.mega-img-box {
-    width: 60px;
-    height: 60px;
-    background-color: #e9ecef;
-    background-size: cover;
-    background-position: center;
-}
+    .mega-menu {
+        border-radius: 1rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        border: none;
+        margin-top: 10px;
+        padding: 1rem 0;
+    }
 
-.property-types-list a {
-    transition: color 0.2s ease;
-}
+    .mega-img-box {
+        width: 60px;
+        height: 60px;
+        background-color: #e9ecef;
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+    }
 
-.property-types-list a:hover {
-    color: var(--color-violet) !important;
-    line-height: 1.4;
-}
+    .property-types-list a {
+        transition: color 0.2s ease;
+    }
 
-.pop-location {
-    height: 90px;
-    background-size: cover;
-    background-position: center;
-}
-.pop-location-overlay {
-    background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.2));
-}
-.pop-location-sub {
-    color: #e9ecef;
-}
-.resource-icon-circle {
-    width: 35px;
-    height: 35px;
-}
-.resource-card {
-    background-color: #F5F3FF;
-}
-.resource-card-green {
-    background-color: #F0FDF4;
-}
-}
+    .property-types-list a:hover {
+        color: var(--color-violet) !important;
+        line-height: 1.4;
+    }
 
+    .pop-location {
+        height: 90px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pop-location-overlay {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+    }
+
+    .pop-location-sub {
+        color: #e9ecef;
+    }
+
+    .resource-icon-circle {
+        width: 35px;
+        height: 35px;
+    }
+
+    .resource-card {
+        background-color: #F5F3FF;
+    }
+
+    .resource-card-green {
+        background-color: #F0FDF4;
+    }

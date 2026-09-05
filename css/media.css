@@ -1,24 +1,106 @@
 @media screen and (max-width:1400px) {
-    
-
-   
 }
 
 @media screen and (max-width:1200px) {
-    
-
 }
 
 @media screen and (max-width:992px)  {
+    /* Home Section */
+    #home h1 {
+        font-size: 3.5rem;
+    }
     
-
+    /* Mega Menu */
+    .mega-menu {
+        background-color: #fff !important;
+        border-radius: 0.5rem !important;
+        box-shadow: none !important;
+        padding: 1rem !important;
+    }
+    .mega-menu .col-lg-3 {
+        margin-bottom: 2rem;
+    }
+    
+    /* Services Section */
+    #services .tab-pane .container {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        gap: 2rem !important;
+    }
+    #services .service-text {
+        width: 100% !important;
+    }
+    #services .service-text br {
+        display: none;
+    }
+    #services .service-img, #services img.service-img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    
+    /* Testimonials Section */
+    #testimonials .carr {
+        width: 90%;
+    }
+    
+    /* Featured Properties */
+    #featured-properties .card-img-top {
+        width: 100% !important;
+        height: auto !important;
+    }
 }
 
 @media screen and (max-width:768px)  {
+    /* Typography adjustments */
+    #home h1 {
+        font-size: 2.8rem;
+    }
+    #home p {
+        font-size: 1rem;
+    }
+    #home br {
+        display: none;
+    }
+    
+    /* Section Headers */
+    .main-title h2, #featured-properties h2, #services h2, #testimonials h2, #faq .main-title h2, #contact .main-title h2 {
+        font-size: 32px !important;
+    }
+    
+    /* Testimonials */
+    #testimonials .carr {
+        width: 95%;
+        padding: 1.5rem !important;
+    }
+    #testimonials p br {
+        display: none;
+    }
+    
+    /* FAQ Section */
+    #faq .accordion-body br {
+        display: none;
+    }
 
+    /* Contact Section */
+    #contact .main-title p br {
+        display: none;
+    }
 }
 
 @media screen and (max-width:576px)  {
+    /* Typography adjustments */
+    #home h1 {
+        font-size: 2.2rem;
+    }
+    .main-title h2 {
+        font-size: 28px !important;
+    }
     
-
+    /* Testimonials */
+    #testimonials .carr {
+        width: 100%;
+        padding: 1rem !important;
+    }
 }
